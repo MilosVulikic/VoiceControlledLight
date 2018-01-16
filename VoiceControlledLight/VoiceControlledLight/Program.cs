@@ -14,10 +14,23 @@ namespace VoiceControlledLight
             SwitchOnCommand switchOn = new SwitchOnCommand(diode);
             SwitchOffCommand switchOff = new SwitchOffCommand(diode);
 
-            switchOn.Execute();
-            switchOff.Execute();
+            while (true)
+            {
+                Console.WriteLine("Enter O = On, X = Off:");
+                string a = Console.ReadLine();
+                if (a == "O")
+                {
+                    switchOn.Execute();
+                }
+                else if (a == "X")
+                {
+                    switchOff.Execute();
 
-            Console.ReadKey();
+                }
+                else break;
+                
+            }
+                        
         }
     }
 }
