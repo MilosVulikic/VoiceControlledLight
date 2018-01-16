@@ -11,8 +11,11 @@ namespace VoiceControlledLight
         static void Main(string[] args)
         {
             Light diode = new Light();
-            diode.TurnOn();
-            diode.TurnOff();
+            SwitchOnCommand switchOn = new SwitchOnCommand(diode);
+            SwitchOffCommand switchOff = new SwitchOffCommand(diode);
+
+            switchOn.Execute();
+            switchOff.Execute();
 
             Console.ReadKey();
         }

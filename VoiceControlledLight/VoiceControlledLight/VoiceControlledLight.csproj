@@ -42,9 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICommand.cs" />
     <Compile Include="Light.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SwitchLightCommand.cs" />
+    <Compile Include="SwitchOffCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
