@@ -35,7 +35,7 @@ Voice command list:
 "Turn Off", "Turn Light Off", "Turn Lights Off"
 "Exit", "Close"
 ```
-These commands are self explicatory, therefore no more details about testing is provided.
+These commands are self explanatory, therefore no more details about testing is provided.
 
 ## Versioning
 
@@ -53,7 +53,8 @@ This is freeware so feel free to share and use it.
 
 Idea of making this program is to learn more about Command pattern, Accessing Arduino or external platforms through C#, and learning about Voice Recognition library.
 
-Further possible development:
+## Further possible development:
+
 * Extending Grammar list
 * Extending Commands that can be executed
 * Scaling Arduino project from very basic to basic/moderate/advanced level 
