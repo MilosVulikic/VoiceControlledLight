@@ -43,11 +43,11 @@ Version 1.0.0. Due to the simplicity of the project no detailed versioning infor
 
 ## Authors
 
-**Milos vulikic** 
+**Miloš Vulikić** 
 
 ## License
 
-This is freeware so feel free to share and use it. 
+This is freeware, so feel free to share and use it. 
 
 ## Acknowledgments
 
